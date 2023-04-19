@@ -8,11 +8,11 @@
 * When the user chooses to update an employee role they'll be  prompted to select an employee to update and their new role and this information is updated in the database.
 
 ## Links
-
+* https://github.com/blake1011001/Employee-Tracker-
 ## Usage
-
+Use this application to quickly and view and interact with information stored in databases.
 ### Credits 
-* Blake S 
+Blake S 
 
 ### License 
 MIT License
