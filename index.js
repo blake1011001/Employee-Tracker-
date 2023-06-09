@@ -47,11 +47,9 @@ function viewAllEmployees() {
 function addEmployee() {
     db.query(`SELECT * FROM Roles;`, (err, res) => {
         if (err) console.log(err);
-        // Maps all roles as an array to this variable so that we can use it to prompt for role choices when adding an employee
         let roles = res.map(role => ({name: role.title, value: role.id}));
         db.query(`SELECT * FROM Employees;`, (err,res) => {
             if (err) console.log(err);
-            // Maps current db of employees to this variable
             let employees = res.map(employee => ({name: employee.first_name + ' ' + employee.last_name, value: employee.id}));
             inquirer.prompt([
                 {
