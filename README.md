@@ -7,8 +7,13 @@
 * When user enters the name, salary, and department for the role and that role is added to the database.
 * When the user chooses to update an employee role they'll be  prompted to select an employee to update and their new role and this information is updated in the database.
 
-## Links
+## Installation
+* Go to the main directory.
+* Type "npm install"
+* After you install then you type "node index.js"
 
+## Video link
+https://drive.google.com/file/d/1Rj0bLZdjalt4aLqcmEYG37M4z4-TN_nZ/view
 
 ## Usage
 Use this application to quickly and view and interact with information stored in databases.
